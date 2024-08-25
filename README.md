@@ -33,7 +33,7 @@ To view the project, open `index.html` in your web browser. For more details on 
 ## Acknowledgments 🙏
 
 - Thank you to Frontend Mentor for the challenge and design inspiration.
-- Special thanks to the design references in the `design/` folder.
+- Special thanks to João 3:16 for reminding us of the ultimate act of love and sacrifice, which inspires and motivates us to create with purpose.
 
 Feel free to explore the project and provide feedback or suggestions!
 
