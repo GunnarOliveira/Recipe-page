@@ -24,7 +24,7 @@ Welcome to the Recipe Page Challenge! This repository contains a solution for th
 
 ## Preview 👀
 
-![Project Preview](preview.png)
+![Project Preview](./recipe-page-main/preview.jpg)
 
 ## Getting Started 🚀
 
