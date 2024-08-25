@@ -1,0 +1,140 @@
+@font-face {
+  font-family: Outfit;
+  src: url(../fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: YoungSerif;
+  src: url(../fonts/young-serif/YoungSerif-Regular.ttf);
+}
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Stone-100: hsl(30, 54%, 90%);
+  --Stone-150: hsl(30, 18%, 87%);
+  --Stone-600: hsl(30, 10%, 34%);
+  --Stone-900: hsl(24, 5%, 18%);
+  --Brown-800: hsl(14, 45%, 36%);
+  --Rose-800: hsl(332, 51%, 32%);
+  --Rose-50: hsl(330, 100%, 98%);
+}
+body {
+  color: var(--Stone-600);
+  box-sizing: border-box;
+  padding: 5% 0;
+  background-color: var(--Stone-100);
+  font-family: Outfit, sans-serif;
+  font-weight: 400;
+}
+main {
+  max-width: 1300px;
+  width: 50%;
+  box-sizing: boder-box;
+  margin: 0 auto;
+  padding: 4rem;
+  border-radius: 1rem;
+  background-color: var(--White);
+}
+figure {
+  padding: 0;
+  margin: 0;
+  box-shadow: inset;
+  overflow: hidden;
+}
+img {
+  max-width: 100%;
+  border-radius: 1rem;
+}
+h1,
+h2 {
+  font-family: YoungSerif;
+  font-weight: 400;
+}
+h1 {
+  color: var(--Stone-900);
+  font-size: 2.5rem;
+  margin: 20px 0px 10px 0px;
+}
+h2 {
+  color: var(--Brown-800);
+  font-size: 1.6rem;
+}
+h3 {
+  color: var(--Rose-800);
+}
+article {
+  box-sizing: boder-box;
+  padding: 10px 30px;
+  background-color: var(--Rose-50);
+  border-radius: 10px;
+}
+ul,
+Ol {
+  padding: 0px 30px;
+}
+li {
+  padding: 10px 0px 10px 20px;
+}
+li::marker {
+  color: brown;
+  font-weight: 700;
+}
+
+.strong-text {
+  color: var(--Stone-600);
+  font-weight: 700;
+}
+.strong-text-02 {
+  color: var(--Brown-800);
+  font-weight: 600;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  padding: 15px 20px;
+}
+td:not(.exception) {
+  border-bottom: 1px solid var(--Stone-150);
+}
+tr .exception {
+  padding-bottom: 40px;
+}
+hr {
+  border: none;
+  height: 1px;
+  background-color: var(--Stone-150);
+  margin: 20px 0px;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  main {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  section {
+    padding: 10px 40px;
+  }
+  div {
+    padding: 0px 40px;
+  }
+  img {
+    border-radius: 0;
+  }
+  figure {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  hr {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
